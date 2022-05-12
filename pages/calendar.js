@@ -23,13 +23,13 @@ function calendar() {
                 aria-label="Default"
                 placeholder="Search Here..."
                 style={{
-                  height: "55px",
+                  height: "44pxs",
                   borderRadius: "16px",
                   backgroundColor: "#F7FBFE",
                 }}
               />
-              <div style={{ marginLeft: "-3em" }}>
-                <Image src="/search.svg" height={20} width={20} />
+              <div style={{ marginLeft: "-2em" }}>
+                <Image src="/search.svg" height={15} width={15} />
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ function calendar() {
                 />
               </div>
             </div>
-            <div className="col-md-5 ms-1">
+            <div className="col-md-5 ms-4">
               <div
                 style={{
                   fontFamily: "Poppins",
@@ -96,21 +96,21 @@ function calendar() {
                 </div>
                 <div className="col-sm-6">
                   <CardCalender
-                    backgroundColor="#E3EBFF"
+                    backgroundColor="#fff"
                     textColor="#223151"
                     IconDark
                   />
                 </div>
                 <div className="col-sm-6 mt-2">
                   <CardCalender
-                    backgroundColor="#E3EBFF"
+                    backgroundColor="#fff"
                     textColor="#223151"
                     IconDark
                   />
                 </div>
                 <div className="col-sm-6 mt-2">
                   <CardCalender
-                    backgroundColor="#E3EBFF"
+                    backgroundColor="#fff"
                     textColor="#223151"
                     IconDark
                   />

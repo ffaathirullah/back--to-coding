@@ -36,13 +36,13 @@ export default function Home(props) {
                 aria-label="Default"
                 placeholder="Search Here..."
                 style={{
-                  height: "55px",
+                  height: "44pxs",
                   borderRadius: "16px",
                   backgroundColor: "#F7FBFE",
                 }}
               />
-              <div style={{ marginLeft: "-3em" }}>
-                <Image src="/search.svg" height={20} width={20} />
+              <div style={{ marginLeft: "-2em" }}>
+                <Image src="/search.svg" height={15} width={15} />
               </div>
             </div>
           </div>
