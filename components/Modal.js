@@ -64,7 +64,7 @@ function Modal() {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="staticBackdropLabel">
-                Coming Soon
+                Coming Soon ..
               </h5>
               <button
                 type="button"
