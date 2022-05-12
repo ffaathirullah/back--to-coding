@@ -6,7 +6,7 @@ import CardMolecules from "../../components/molecules/cardMolecules";
 import CheckBox from "../../components/atoms/CheckBox";
 import { useRouter } from "next/router";
 
-function goals(props) {
+function Goals() {
   const { query, isReady } = useRouter();
 
   useEffect(() => {
@@ -22,10 +22,10 @@ function goals(props) {
         <div className="col-sm-8">
           <HeaderComponents />
           <div className="mt-3">
-            <div class="input-group mb-3 d-flex align-items-center align-content-center">
+            <div className="input-group mb-3 d-flex align-items-center align-content-center">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 aria-label="Default"
                 placeholder="Search Here..."
                 style={{
@@ -261,4 +261,4 @@ function goals(props) {
   );
 }
 
-export default goals;
+export default Goals;

@@ -29,10 +29,10 @@ export default function Home(props) {
         <div className="col-sm-8 ">
           <HeaderComponents />
           <div className="mt-3">
-            <div class="input-group mb-3 d-flex align-items-center align-content-center">
+            <div className="input-group mb-3 d-flex align-items-center align-content-center">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 aria-label="Default"
                 placeholder="Search Here..."
                 style={{
@@ -95,7 +95,7 @@ export default function Home(props) {
                     </Box>
                     <TabPanel value="1">
                       <div>
-                        <Link href={`/goals/${data1.id}`}>
+                        <Link href={`/Goals/${data1.id}`}>
                           <div style={{ cursor: "pointer" }}>
                             <Card
                               title={data1.title}
