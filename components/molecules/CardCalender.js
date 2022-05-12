@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-function CardCalender() {
+function CardCalender(props) {
   return (
     <div>
       <div
         style={{
-          backgroundColor: "#223151",
+          backgroundColor: props.backgroundColor,
           height: "260px",
           width: "188px",
           borderRadius: 10,
@@ -14,7 +14,11 @@ function CardCalender() {
         className="row pt-2 justify-content-center align-content-center align-items-center"
       >
         <div className="col-sm-8 me-3 ps-4">
-          <Image alt="button" src="/IconNight.svg" height={38} width={38} />
+          {props.IconDark ? (
+            <Image src="/IconDark.svg" height={38} width={38} />
+          ) : (
+            <Image src="/IconNight.svg" height={38} width={38} />
+          )}
         </div>
         <div
           style={{
@@ -22,7 +26,7 @@ function CardCalender() {
             fontStyle: "normal",
             fontWeight: 700,
             fontSize: "16px",
-            color: "#FFFFFF",
+            color: props.textColor,
           }}
           className="col-sm-8 mt-2"
         >

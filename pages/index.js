@@ -9,6 +9,7 @@ import HeaderComponents from "../components/HeaderComponents";
 import Card from "../components/Card";
 import CheckBox from "../components/atoms/CheckBox";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home(props) {
   const [value, setValue] = useState("1");
@@ -28,16 +29,22 @@ export default function Home(props) {
         <div className="col-sm-8 ">
           <HeaderComponents />
           <div className="mt-3">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Search here.."
-              style={{
-                height: "65px",
-                borderRadius: "16px",
-                backgroundColor: "#F7FBFE",
-              }}
-            />
+            <div class="input-group mb-3 d-flex align-items-center align-content-center">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Default"
+                placeholder="Search Here..."
+                style={{
+                  height: "55px",
+                  borderRadius: "16px",
+                  backgroundColor: "#F7FBFE",
+                }}
+              />
+              <div style={{ marginLeft: "-3em" }}>
+                <Image src="/search.svg" height={20} width={20} />
+              </div>
+            </div>
           </div>
           <div className="mt-5 ">
             <div className="row">

@@ -53,7 +53,7 @@ function HeaderComponents() {
             >
               <li>
                 <a class="dropdown-item" href="#">
-                  <div className="row">
+                  <div className="row ">
                     <div className="col-sm-6">
                       <div
                         style={{
@@ -69,7 +69,7 @@ function HeaderComponents() {
                         <div className="col-sm-5 mt-1">
                           <Image src="/TaskIcon.svg" height={43} width={43} />
                         </div>
-                        <div className="">
+                        <div className="pt-2">
                           <p
                             style={{
                               fontFamily: "Poppins",
@@ -81,7 +81,17 @@ function HeaderComponents() {
                           >
                             My Project
                           </p>
-                          <p style={{ margin: 0 }}>42+</p>
+                          <p
+                            style={{
+                              margin: 0,
+                              fontFamily: "Poppins",
+                              fontStyle: "normal",
+                              fontWeight: 700,
+                              fontSize: "16px",
+                            }}
+                          >
+                            42+
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -100,7 +110,7 @@ function HeaderComponents() {
                         <div className="col-sm-5 mt-1">
                           <Image src="/TeamIcon.svg" height={43} width={43} />
                         </div>
-                        <div className="">
+                        <div className="pt-2">
                           <p
                             style={{
                               fontFamily: "Poppins",
@@ -112,31 +122,113 @@ function HeaderComponents() {
                           >
                             My Team
                           </p>
-                          <p style={{ margin: 0 }}>10+</p>
+                          <p
+                            style={{
+                              margin: 0,
+                              fontFamily: "Poppins",
+                              fontStyle: "normal",
+                              fontWeight: 700,
+                              fontSize: "16px",
+                            }}
+                          >
+                            10+
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </a>
               </li>
-              <li>
+              <li className="mt-4">
                 <a class="dropdown-item" href="#">
-                  Settings
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <Image src="/settings.svg" height={43} width={43} />
+                      <p
+                        style={{
+                          fontFamily: "Poppins",
+                          fontStyle: "normal",
+                          fontWeight: "500",
+                          fontSize: "14px",
+                        }}
+                        className="ms-2 mt-2"
+                      >
+                        Settings
+                      </p>
+                    </div>
+                    <div>
+                      <Image src="/nextIcon.svg" height={11} width={6} />
+                    </div>
+                  </div>
                 </a>
               </li>
-              <li>
+              <li className="mt-1">
                 <a class="dropdown-item" href="#">
-                  User Management
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <Image src="/userManagement.svg" height={43} width={43} />
+                      <p
+                        style={{
+                          fontFamily: "Poppins",
+                          fontStyle: "normal",
+                          fontWeight: "500",
+                          fontSize: "14px",
+                        }}
+                        className="ms-2 mt-2"
+                      >
+                        User Management
+                      </p>
+                    </div>
+                    <div>
+                      <Image src="/nextIcon.svg" height={11} width={6} />
+                    </div>
+                  </div>
                 </a>
               </li>
-              <li>
+              <li className="mt-1">
                 <a class="dropdown-item" href="#">
-                  Privacy
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <Image src="/privacy.svg" height={43} width={43} />
+                      <p
+                        style={{
+                          fontFamily: "Poppins",
+                          fontStyle: "normal",
+                          fontWeight: "500",
+                          fontSize: "14px",
+                        }}
+                        className="ms-2 mt-2"
+                      >
+                        Privacy
+                      </p>
+                    </div>
+                    <div>
+                      <Image src="/nextIcon.svg" height={11} width={6} />
+                    </div>
+                  </div>
                 </a>
               </li>
-              <li>
+              <li className="mt-1">
                 <a class="dropdown-item" href="#">
-                  Logout
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <Image src="/logOut.svg" height={43} width={43} />
+                      <p
+                        style={{
+                          fontFamily: "Poppins",
+                          fontStyle: "normal",
+                          fontWeight: "500",
+                          fontSize: "14px",
+                        }}
+                        className="ms-2 mt-2"
+                      >
+                        Log Out
+                      </p>
+                    </div>
+                    <div>
+                      <Image src="/nextIcon.svg" height={11} width={6} />
+                    </div>
+                  </div>
                 </a>
               </li>
             </ul>

@@ -4,6 +4,7 @@ import HeaderComponents from "../components/HeaderComponents";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import CardCalender from "../components/molecules/CardCalender";
+import Image from "next/image";
 
 function calendar() {
   return (
@@ -15,16 +16,22 @@ function calendar() {
         <div className="col-sm-8">
           <HeaderComponents />
           <div className="mt-3">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Search here.."
-              style={{
-                borderRadius: "16px",
-                backgroundColor: "#F7FBFE",
-                height: "65px",
-              }}
-            />
+            <div class="input-group mb-3 d-flex align-items-center align-content-center">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Default"
+                placeholder="Search Here..."
+                style={{
+                  height: "55px",
+                  borderRadius: "16px",
+                  backgroundColor: "#F7FBFE",
+                }}
+              />
+              <div style={{ marginLeft: "-3em" }}>
+                <Image src="/search.svg" height={20} width={20} />
+              </div>
+            </div>
           </div>
 
           <div className="mt-5 my-2 row">
@@ -85,16 +92,28 @@ function calendar() {
               </div>
               <div className="row">
                 <div className="col-sm-6">
-                  <CardCalender />
+                  <CardCalender backgroundColor="#223151" textColor="#fff" />
                 </div>
                 <div className="col-sm-6">
-                  <CardCalender />
+                  <CardCalender
+                    backgroundColor="#E3EBFF"
+                    textColor="#223151"
+                    IconDark
+                  />
                 </div>
                 <div className="col-sm-6 mt-2">
-                  <CardCalender />
+                  <CardCalender
+                    backgroundColor="#E3EBFF"
+                    textColor="#223151"
+                    IconDark
+                  />
                 </div>
                 <div className="col-sm-6 mt-2">
-                  <CardCalender />
+                  <CardCalender
+                    backgroundColor="#E3EBFF"
+                    textColor="#223151"
+                    IconDark
+                  />
                 </div>
               </div>
             </div>
