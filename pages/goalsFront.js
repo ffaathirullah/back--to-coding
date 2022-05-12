@@ -4,15 +4,8 @@ import HeaderComponents from "../components/HeaderComponents";
 import Image from "next/image";
 import CardMolecules from "../components/molecules/cardMolecules";
 import CheckBox from "../components/atoms/CheckBox";
-import { useRouter } from "next/router";
 
-function goalsFront(props) {
-  const { query, isReady } = useRouter();
-
-  useEffect(() => {
-    console.log(query.id);
-  }, [isReady]);
-
+function goalsFront() {
   return (
     <>
       <div className="row mb-5" style={{ marginTop: "1em" }}>
@@ -22,10 +15,10 @@ function goalsFront(props) {
         <div className="col-sm-8">
           <HeaderComponents />
           <div className="mt-3">
-            <div class="input-group mb-3 d-flex align-items-center align-content-center">
+            <div className="input-group mb-3 d-flex align-items-center align-content-center">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 aria-label="Default"
                 placeholder="Search Here..."
                 style={{
