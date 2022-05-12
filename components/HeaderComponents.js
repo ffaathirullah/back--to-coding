@@ -36,9 +36,9 @@ function HeaderComponents() {
           />
         </div>
         <div className="col-sm-6">
-          <div class="dropdown">
+          <div className="dropdown">
             <button
-              class=" dropdown-toggle"
+              className=" dropdown-toggle"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -48,11 +48,11 @@ function HeaderComponents() {
             </button>
             <ul
               style={{ width: "300px" }}
-              class="dropdown-menu"
+              className="dropdown-menu"
               aria-labelledby="dropdownMenuButton1"
             >
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   <div className="row ">
                     <div className="col-sm-6">
                       <div
@@ -140,7 +140,7 @@ function HeaderComponents() {
                 </a>
               </li>
               <li className="mt-4">
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex justify-content-between align-items-center">
                       <Image src="/settings.svg" height={43} width={43} />
@@ -163,7 +163,7 @@ function HeaderComponents() {
                 </a>
               </li>
               <li className="mt-1">
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex justify-content-between align-items-center">
                       <Image src="/userManagement.svg" height={43} width={43} />
@@ -186,7 +186,7 @@ function HeaderComponents() {
                 </a>
               </li>
               <li className="mt-1">
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex justify-content-between align-items-center">
                       <Image src="/privacy.svg" height={43} width={43} />
@@ -209,7 +209,7 @@ function HeaderComponents() {
                 </a>
               </li>
               <li className="mt-1">
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex justify-content-between align-items-center">
                       <Image src="/logOut.svg" height={43} width={43} />
