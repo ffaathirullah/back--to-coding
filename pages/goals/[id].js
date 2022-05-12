@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Header from "../../components/header";
+import Header from "../../components/Header";
 import HeaderComponents from "../../components/HeaderComponents";
 import Image from "next/image";
-import CardMolecules from "../../components/molecules/cardMolecules";
+import CardMolecules from "../../components/molecules/CardMolecules";
 import CheckBox from "../../components/atoms/CheckBox";
 import { useRouter } from "next/router";
 
