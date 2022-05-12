@@ -18,11 +18,13 @@ function Header() {
           <p style={{ marginLeft: 5, paddingTop: 15, width: 20 }}>Home</p>
         </a>
       </Link>
-      <Link href={`/goals/${1}`}>
-        <a className={router.pathname == "/goals" ? "active " : ""}>
+      <Link href={`/goalsFront`}>
+        <a className={router.pathname == `/goalsFront` ? "active" : ""}>
           <Image
             style={{ marginRight: 20 }}
-            src={router.pathname == "/goals" ? "/goals1.svg" : "/goals.svg"}
+            src={
+              router.pathname == `/goalsFront` ? "/goals1.svg" : "/goals.svg"
+            }
             height={16}
             width={19}
           />
@@ -30,7 +32,7 @@ function Header() {
         </a>
       </Link>
       <Link href="/calendar">
-        <a className={router.pathname == "/calendar" ? "active " : ""}>
+        <a className={router.pathname == "/calendar" ? "active" : ""}>
           <Image
             style={{ marginRight: 20 }}
             src={

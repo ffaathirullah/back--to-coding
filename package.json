@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.16.7",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "@fullcalendar/common": "^5.11.0",
+    "@fullcalendar/daygrid": "^5.11.0",
+    "@fullcalendar/interaction": "^5.11.0",
+    "@fullcalendar/react": "^5.11.1",
+    "@fullcalendar/timegrid": "^5.11.0",
     "@mui/lab": "^5.0.0-alpha.81",
     "@mui/material": "^5.7.0",
     "@ramonak/react-progress-bar": "^4.4.0",
     "next": "12.1.6",
-    "react": "18.1.0",
+    "next-transpile-modules": "^9.0.0",
+    "react": "18.0.0",
     "react-dom": "18.1.0"
   },
   "devDependencies": {

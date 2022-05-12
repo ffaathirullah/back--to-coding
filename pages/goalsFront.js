@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import Header from "../../components/header";
-import HeaderComponents from "../../components/HeaderComponents";
+import Header from "../components/header";
+import HeaderComponents from "../components/HeaderComponents";
 import Image from "next/image";
-import CardMolecules from "../../components/molecules/cardMolecules";
-import CheckBox from "../../components/atoms/CheckBox";
+import CardMolecules from "../components/molecules/cardMolecules";
+import CheckBox from "../components/atoms/CheckBox";
 import { useRouter } from "next/router";
 
-function goals(props) {
+function goalsFront(props) {
   const { query, isReady } = useRouter();
 
   useEffect(() => {
@@ -44,7 +44,7 @@ function goals(props) {
                     fontSize: "28px",
                   }}
                 >
-                  {query.id == "1" ? "UI Dashboard Projects" : "Landing Page"}
+                  UI Dashboard Projects
                 </p>
                 <div>
                   <div className="row">
@@ -255,4 +255,4 @@ function goals(props) {
   );
 }
 
-export default goals;
+export default goalsFront;

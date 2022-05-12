@@ -20,7 +20,7 @@ function Card(props) {
                 fontFamily: "'Poppins'",
               }}
             >
-              UI Dashboard Projects
+              {props.title}
             </p>
           </div>
           <div>

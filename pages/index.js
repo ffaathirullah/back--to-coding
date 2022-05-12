@@ -21,7 +21,7 @@ export default function Home(props) {
 
   return (
     <>
-      <div className="row" style={{ marginTop: "1em" }}>
+      <div className="row mb-5" style={{ marginTop: "1em" }}>
         <div className="col-sm-3">
           <Header />
         </div>
@@ -32,7 +32,11 @@ export default function Home(props) {
               type="text"
               className="form-control"
               placeholder="Search here.."
-              style={{ borderRadius: "16px", backgroundColor: "#F7FBFE" }}
+              style={{
+                height: "65px",
+                borderRadius: "16px",
+                backgroundColor: "#F7FBFE",
+              }}
             />
           </div>
           <div className="mt-5 ">

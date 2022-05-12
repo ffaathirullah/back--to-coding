@@ -73,3 +73,88 @@ div.content {
 input[type="checkbox"]:checked + label::before {
   background-color: #c8ffc8;
 }
+
+.fc .fc-scroller {
+  background-color: #223151 !important;
+  color: #fff;
+}
+
+.fc .fc-scroller a {
+  color: #fff !important;
+}
+
+.fc-daygrid-block-event .fc-event-time,
+.fc-daygrid-block-event .fc-event-title {
+  align-self: center !important;
+  margin-left: 10px !important;
+  width: 0px !important;
+  height: 0px !important;
+  background-color: #f9c917 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: "700";
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.fc-h-event .fc-event-title-container {
+  align-self: center !important;
+  margin-left: 10px !important;
+  width: 0px !important;
+  height: 0px !important;
+  background-color: #f9c917 !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.fc .fc-daygrid-event-harness {
+  align-self: center !important;
+  margin-left: 10px !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #f9c917 !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.fc .fc-scroller-liquid-absolute {
+  overflow: unset !important;
+}
+.fc .fc-scroller {
+  overflow: unset !important;
+}
+
+.fc .fc-toolbar-title {
+  color: #fff;
+}
+
+.fc .fc-button-primary {
+  color: #223151 !important;
+  background-color: #fff !important;
+  border-radius: 10px;
+}
+
+.table {
+  border-style: none !important;
+}
+.fc .fc-scrollgrid table {
+  border-style: none !important;
+}
+
+.fc table,
+.fc tr,
+.fc td,
+.fc th {
+  border-style: none !important;
+}
+
+.fc-scrollgrid-sync-table {
+  margin-top: 10px;
+  margin-left: -1.4em;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
